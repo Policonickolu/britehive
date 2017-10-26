@@ -1,0 +1,30 @@
+.List {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 300px;
+  
+  color: rgb(141,149,160);
+  background-color: rgb(62,71,80);
+
+
+}
+
+.List .scroll {
+
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.List .next {
+  float: right;
+}
+
+.List ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+
+}
